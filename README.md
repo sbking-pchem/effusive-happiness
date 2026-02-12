@@ -57,6 +57,9 @@ scipy
 pandas
 ```
 
+## Install and Run Time
+Use of this package requires Python. After Python installation the install time is less than 1 minute and run time of the various components is on average <5 minutes.
+
 ## Units
 
 All calculations use a consistent unit system:
