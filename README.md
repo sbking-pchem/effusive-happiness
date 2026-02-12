@@ -28,8 +28,8 @@ This repository contains the Python code used for analytical electromagnetic cal
 ├── semi_infinite_rpp.ipynb
 ├── Vacuum_MoOCl2_SiO2_Si.ipynb
 └── LiteratureDielectrics/
-    ├── MoOCl2/
-    │   ├── Re X.csv          # ε_x real part (Zhao et al. 2020, DFT)
+    ├── MoOCl2/ (Zhao et al. 2020, DFT)
+    │   ├── Re X.csv          # ε_x real part
     │   ├── Im X.csv          # ε_x imaginary part
     │   ├── Re Y.csv          # ε_y real part
     │   ├── Im Y.csv          # ε_y imaginary part
@@ -45,7 +45,7 @@ This repository contains the Python code used for analytical electromagnetic cal
 - **MoOCl₂ ε_x(ω), ε_y(ω):**    Drude–Lorentz parametrization from N. Melchioni, A. Mancini, L. Nan, A. Efimova, G. Venturi, A. Ambrosio, Giant Optical Anisotropy in a Natural van der Waals Hyperbolic Crystal for Visible Light Low-Loss Polarization Control. ACS Nano 19, 25413–25421 (2025).
                                 Parameters are hardcoded in the `melchioni_dielectric()` function.
 - **MoOCl₂ ε_z(ω):**            DFT calculations from J. Zhao, W. Wu, J. Zhu, Y. Lu, B. Xiang, S. A. Yang, Highly anisotropic two-dimensional metal in monolayer MoOCl2. Phys. Rev. B 102, 245419 (2020).
-                                Provided as CSV files in `LiteratureDielectrics/MoOCl2/`.
+                                Provided as CSV files in `LiteratureDielectrics/MoOCl2/`. The X and Y directions are also included for comparison purposes.
 - **SiO₂, Si(100):**            SOPRA optical constants database (https://www.sspectra.com/sopra.html).
 
 ## Requirements
@@ -72,3 +72,4 @@ Experimental data displayed in the manuscript is available on Zenodo: https://ze
 ## License
 
 MIT License
+
